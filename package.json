@@ -1,7 +1,7 @@
 {
-  "name": "ticonfig",
-  "version": "0.2.5",
-  "description": "hook ti cli config from tiapp.xml",
+  "name": "ti-packager",
+  "version": "0.0.1",
+  "description": "Appcelerator Titanium hook to build small APK files by seperating ARM and X86 versions",
   "scripts": {
     "install": "node bin/install"
   },
@@ -11,7 +11,7 @@
     "appcelerator",
     "hook"
   ],
-  "author": "David Bankier <david@yydigital.com> (http://www.yydigital.com)",
+  "author": "Mohamed Shaban, @drmas, mohamed.shaban@codly.io, codly.io",
   "license": "MIT",
   "dependencies": {
     "underscore": "~1.5.2",
