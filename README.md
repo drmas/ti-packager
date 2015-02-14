@@ -1,23 +1,23 @@
-# ticonfig
+# Ti-Packager
 
-A titanium cli plugin so that the build configuration can be read from the tiapp.xml file.
+Appcelerator Titanium hook to build small APK file by separating ARM and X86 versions
 
 ## Installation
 
+Still not available yet.
+
 ~~~
-$ [sudo] npm install -g ticonfig
+$ [sudo] npm install -g ti-packager
 ~~~
 
 ## Usage
 
-Then you can added the following, e.g. to your tiapp.xml file.
+Then you can use it by simply adding the following line to your tiapp.xml file.
 
 ~~~
-  <property name="cli.includeAllTiModules" type="bool">true</property>
+  <property name="ti.packager.separate" type="bool">true</property>
 ~~~
 
-You will need to understand what can be changed at the `build.pre.contruct` phase.
-
-**To Do** - add a list of settings that can be changed and have an effect. 
+Ti-Packager will modify the tiapp.xml to target different archeticture, it will produce [app-name]-ARM.apk and [app-name]-x86.apk
 
 ## Licence MIT
